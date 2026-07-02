@@ -170,8 +170,8 @@ function submitLoan({ amount, months, reason, reasonDetail }){
 }
 
 /* ---------- routing (services hub) ---------- */
-function routeFamily(){ window.location.href = hasFund() ? '3_fund_dashboard.html' : '2_create_fund.html'; }
-function routeRequestLoan(){ window.location.href = hasFund() ? '4_request_loan.html' : '2_create_fund.html'; }
+function routeFamily(){ window.location.href = hasFund() ? 'fund_dashboard.html' : 'create_fund.html'; }
+function routeRequestLoan(){ window.location.href = hasFund() ? 'request_loan.html' : 'create_fund.html'; }
 
 /* ---------- dashboard rendering ---------- */
 function attachmentHTML(a){
